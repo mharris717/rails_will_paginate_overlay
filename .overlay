@@ -1,0 +1,5 @@
+c.command "rails new foo", :path => :foo
+c.overlay "https://github.com/mharris717/widget_overlay_rails.git"
+c.overlay "."
+c.command "bundle install"
+c.command "rake db:migrate db:seed"
